@@ -1,0 +1,43 @@
+
+/*========== variables for csss ========*/
+:root{
+    --header-height: 3rem;
+
+    /*=======colors==========*/
+    /*themes*/
+    --hue-color : 205;
+
+    /*hsl colors*/
+    --first-color: hsl(var(--hue-color), 69%, 58%);
+    --first-color-first: hsl(var(--hue-color), 71%, 47%);
+    --first-color-alt: hsl(var(--hue-color), 55%, 50%);
+    --first-color-lighter: hsl(var(--hue-color), 90%, 82%);
+
+    --second-color: hsl(200, 85%, 70%);
+
+    --title-color : hsl(var(--hue-color), 69%, 58%);
+    --text-color : hsl(var(--hue-color), 10%, 40%);
+    --mainText : hsl(var(--hue-color), 10%, 20%);
+    --text-color-light : hsl(var(--hue-color), 10%, 65%);
+    --input-color : hsl(var(--hue-color), 70%, 88%);
+    --body-color : hsl(var(--hue-color), 66%, 99%);
+    --contaiber-color:#FFF;
+    --scroll-bar-color : hsl(var(--hue-color), 15%, 85%);
+    --scroll-thumb-color : hsl(var(--hue-color), 15%, 70%);
+    --gradient-color: linear-gradient(140deg, rgba(93,72,199,1) 0%, rgb(94, 91, 201,1) 48%, rgba(101,125,160,1) 100%); 
+    
+    /*fonts*/
+    --gullible-font: 'Maven Pro', sans-serif;
+    --body-font: 'Poppins', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
+    --robotomono-font: 'Roboto Mono', monospace;
+
+    /*  1 rem = 16px*/
+    --big-font-size: 2rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1.15rem;
+    --normal-font-size : 14px   ;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+}

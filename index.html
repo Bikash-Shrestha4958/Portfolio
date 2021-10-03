@@ -5,6 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,400&family=Roboto+Mono:wght@200;300&family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
    
@@ -18,8 +26,53 @@
   <body>
     
   <!------------------- Header ------------------->
-    <header class="header">
-      
+    <header class="header" id="header">
+      <nav class="nav container navbar-expand-lg">
+         <a href="#" class="nav_logo navbar-brand ml-3">Bikash Shrestha</a>
+         <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="nav__menu" id="nav-menu">
+           <ul class="nav__list grid">
+             <li class="nav_item">
+               <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>Home
+               </a>
+             </li>
+
+             <li class="nav_item">
+              <a href="#about" class="nav__link">
+               <i class="uil uil-user-square nav_icon"></i></i>About Me
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#skills" class="nav__link">
+               <i class="uil uil-file nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#qualification" class="nav__link">
+               <i class="uil uil-diary nav__icon"></i>Qualifications
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#portfolio" class="nav__link">
+               <i class="uil uil-scenery nav__icon"></i>Portfolio
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#contact" class="nav__link">
+               <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+
+           </ul>
+         </div>
+      </nav>
     </header>
   <!--*****************> Footer *****************-->
     <main class="main">
@@ -27,22 +80,32 @@
       <section class="home section" id="home">
         
       </section>
+
     <!------------------- About me ------------------->
       <section class="about section" id="about">
 
       </section>
-    <!------------------- Qualifications ------------------->
-      <section class="qualification section" id="qualification">
+
+    <!------------------- Skills ------------------->
+      <section class="skills section" id="Skills">
 
       </section>
+    
+    <!------------------- Qualifications ------------------->
+    <section class="qualification section" id="qualification">
+
+    </section>
+
     <!------------------- Portolio ------------------->
       <section class="portfolio section" id="portfolio">
 
       </section>
+
     <!------------------- Contact Me ------------------->
       <section class="contact section" id="contact">
 
       </section>
+
 
     </main>
   <!------------------- Footer ------------------->
